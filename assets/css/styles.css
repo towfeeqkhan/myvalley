@@ -266,6 +266,32 @@ img {
   border-radius: .5rem;
 }
 
+.l-section h1 {
+  text-align: center;
+  color: var(--white-color);
+  font-family: var(--body-font);
+  font-size: calc(var(--biggest-font-size) - 50px);
+  padding-top: 35px;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .l-section h1 {
+    font-size: calc(var(--biggest-font-size) - 35px);
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .l-section h1 {
+    font-size: calc(var(--biggest-font-size) - 45px);
+    padding-top: 20px;
+  }
+}
+
 /*===== MEDIA QUERIES =====*/
 @media screen and (min-width: 760px) {
   .nav {
