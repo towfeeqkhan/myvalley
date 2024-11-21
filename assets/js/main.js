@@ -28,7 +28,6 @@ gsap.from('.home__subtitle', {opacity:0, duration: 3, delay: 1.1 , y: 35, ease:'
 /*Scroll*/
 gsap.from('.home__scroll', {opacity:0, duration: 3, delay: 1.5, y: 25, ease:'expo.out'});
 
-
 /*====== SCROLL REVEAL SECTION ======*/
 const sr = ScrollReveal({
     duration: 2500,
@@ -40,3 +39,11 @@ sr.reveal('.section__data',{origin: 'left',distance: '70px'});
 
 /*Imgs*/
 sr.reveal('.section__img',{origin: 'left',distance: '90px',delay: 200}); 
+
+// Update copyright year
+document.getElementById('year').textContent = new Date().getFullYear();
+/*Imgs*/
+sr.reveal('.section__img',{origin: 'left',distance: '90px',delay: 200}); 
+
+// Update copyright year
+document.getElementById('year').textContent = new Date().getFullYear();
