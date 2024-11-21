@@ -176,7 +176,125 @@
                     <p class="p-discription">Honeymoon in Kashmir | Srinagar Local Sightseeing |Day Visit Gulmarg |
                         Pahalgam |Dal Lake
                     </p>
-                    <a href="honeymoon vacation.html"><button class="btn btn-outline-primary btn-lg">Book Now</button></a>
+                    <a href="honeymoon vacation.html"><button class="btn btn-outline-primary btn-lg">Book
+                            Now</button></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== GALLERY SECTION ===== -->
+        <section class="l-section" id="gallery">
+            <h1>Gallery</h1>
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="assets/img/KS-img1.jpg" alt="Kashmir Slide 1">
+                </div>
+                <div class="slide fade">
+                    <img src="assets/img/KS-img2.jpg" alt="Kashmir Slide 2">
+                </div>
+                <div class="slide fade">
+                    <img src="assets/img/KS-img3.jpg" alt="Kashmir Slide 3">
+                </div>
+                <div class="slide fade">
+                    <img src="assets/img/KS-img4.jpg" alt="Kashmir Slide 4">
+                </div>
+                <div class="slide fade">
+                    <img src="assets/img/KS-img5.jpg" alt="Kashmir Slide 5">
+                </div>
+
+                <!-- Navigation arrows -->
+                <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+                <!-- Navigation dots -->
+                <div class="dots-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== REVIEWS SECTION ===== -->
+        <section class="l-section" id="reviews">
+            <h1>Reviews</h1>
+            <div class="card-container">
+                <!-- Review Card 1 -->
+                <div class="card review-card">
+                    <div class="reviewer-profile">
+                        <img src="assets/img/KR-img1.png" alt="Junaid" class="reviewer-img">
+                        <h3 class="reviewer-name">Junaid</h3>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">We went to Kashmir through this agency and trust me, the experience was
+                        mind-blowing. They are very much cooperative and listen to all your requests calmly. Especially,
+                        I was traveling with infant and senior citizen, so it had to be comfortable. Thank you so much
+                        for all the support. 100% recommended agency 👍🏻</p>
+                </div>
+
+                <!-- Review Card 2 -->
+                <div class="card review-card">
+                    <div class="reviewer-profile">
+                        <img src="assets/img/KR-img2.png" alt="Vishnu" class="reviewer-img">
+                        <h3 class="reviewer-name">Vishnu</h3>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">It was a great trip. We really enjoyed the moments. My Valley tour & travels really made this trip memorable. Everything perfectly arranged, followed up the things. The plan was fully customisable as per our ideas. They provided best driver, best hotel. Highly recommended.</p>
+                </div>
+
+                <!-- Review Card 3 -->
+                <div class="card review-card">
+                    <div class="reviewer-profile">
+                        <img src="assets/img/KR-img3.png" alt="Kajal" class="reviewer-img">
+                        <h3 class="reviewer-name">Kajal</h3>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">I booked Kashmir Package for my family with My Valley. This was my best decision. Entire team is positive and ready to make our tour memorable. No doubt my next trip will be with My Valley. Thanks for support team.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section class="l-section" id="contact">
+            <h1>Contact Us</h1>
+            <div class="card-container">
+                <div class="card contact-card">
+                    <h3 class="p-title">Get in Touch</h3>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -194,6 +312,7 @@
     <!-- MAIN JS -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/snow.js"></script>
+    <script src="assets/js/gallery.js"></script>
 </body>
 
 </html>
